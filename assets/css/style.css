@@ -1,0 +1,129 @@
+.name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  .thumbnail {
+    border-radius: 180px;
+    border-color: #ffdd00;
+  }
+  
+  .lead {
+    font-style: italic;
+    font-size: 16px;
+    text-align: right;
+    padding-right: 180px;
+  }
+  
+  .quote {
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .column {
+    justify-content: space-between;
+    padding-bottom: 30px;
+  }
+  
+  div img {
+    border: 200px;
+    color: aqua;
+  }
+  
+  .space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .contactme {
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  .form {
+    margin-top: 40px
+  }
+  
+  h4 {
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  h6 {
+    text-align: center;
+  }
+  
+  header div nav ul li {
+    margin: 7px 10px;
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+  }
+  
+  header div nav ul li a {
+    padding: 0 35px 0 70px;
+    display: inline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: black;
+  }
+  
+  header div nav ul li a:hover {
+    font-size:26px;
+    transition: all 500ms;
+    font-size-adjust: 20px;
+    text-decoration: underline;
+  }
+  
+  
+  header a {
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+  }
+  
+  
+  .hover-box img:hover {
+    transform: scale(2.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 500ms;
+  }
+  
+  #my-projects {
+    justify-content: space-around;
+    padding: 0 20px 0 40px;
+  }
+  
+  
+  .callout {
+    /* background-image: url("../images/header.png"); */
+  
+  }
+  
+  /* add media queries here */
+  
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    .hover-box {
+      /* this will be applied on any screen smaller than 575px */
+      flex-wrap: wrap;
+      flex-direction: column;
+      flex: 0 100px;
+    }
+  }
